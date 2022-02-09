@@ -1,34 +1,102 @@
+
 <html>
-<html class="site-bg">
+
     <head>
-    <title>Daltonismul</title>
+    <title>Jocuri 2022: Acasa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="etc/stil/style.css">
-<head>
-    <title>
-       Daltonismul
-    </title>
-   
-   
-</head>
-   
+    <style>
+      body{
+  font-family: 'Lato', sans-serif;
+}
 
-<body>
-    <h1 style="font-family: CocoGoose;" align = center>
-        Daltonismul
-    </h1>
-    <h2 style="font-family: CocoGooseLight;" align = center>
-        <span style="color: rgb(255, 255, 255);">De</span> <span style="color: blue;">Iacob Stefan Alexandru</span> <span style="color: rgb(255, 255, 255);">si</span> <span style="color: rgb(21, 255, 0);">Stoica Letitia-Ioana</span>
-    </h2>
+.wrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    <p align="center">
-    <button href="#" class="next round" onclick="location.href='etc/pagini/pagina1.html'" > <span class="text">&#8250;</span>
-        <span class="blob"></span>
-        <span class="blob"></span>
-        <span class="blob"></span>
-        <span class="blob"></span>
-      </button>
-    </p>
-</body>
-   
-</html>
+.link_wrapper{
+  position: relative;
+}
+
+a{
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: rgb(216, 10, 199);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid rgb(133, 7, 127);
+  transition: all .35s;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon svg{
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #cc2ecc;
+  transition: all .35s;
+}
+
+a:hover{
+  width: 200px;
+  border: 3px solid #cc2ebf;
+  background: transparent;
+  color: #cc2ecc;
+}
+
+a:hover + .icon{
+  border: 3px solid #cc2ebf;
+  right: -25%;
+}
+      </style>
+    </head>
+    <style type="text/css">
+      body{
+        background-image: url('imagini/backgroundacasa.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+    </style>
+    
+    
+    <body>
+    
+      <h1 style="font-family:Arial, Helvetica, sans-serif;", align=center>Jocuri Noi 2022 - Proiect</h1>
+  
+
+    <p style="size: 1;"> <img src="imagini/acasa.jpg"></p>
+    
+    <h2 style="font-family: cursive;"><span style="text-shadow: black;">Salut.Am decis sa creez o lista de jocuri care vor fi lansate in urmatoarele luni si care te-ar putea interesa.</span></h2>
+    
+    
+    
+    <a href="#" class="next round" onclick="location.href='pagina1.html'">&#8250;</a>
+    
+  
+  
+  </body>
+    
+    </html>
+    
